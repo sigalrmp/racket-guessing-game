@@ -1,0 +1,10 @@
+#lang racket
+(define (guess g n)
+  (cond
+    [(= g n) (printf "That's correct! You win!!")]
+    [(< g n) (begin (printf "Too small") (get-input))]
+    [(> g n) (begin (printf "Too big") (get-input))]))
+
+(define (get-input)
+  (define g (input))
+  (printf "~s" g))
