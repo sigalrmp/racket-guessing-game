@@ -7,3 +7,7 @@
 
 ### precompiled package
 [website](https://download.racket-lang.org/)
+
+## running the game
+
+`racket guessing-game.rkt`
