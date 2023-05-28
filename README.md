@@ -6,7 +6,7 @@
 `brew instal -cask racket`
 
 ### precompiled package
-[website](https://download.racket-lang.org/)
+[here](https://download.racket-lang.org/)
 
 ## running the game
 
